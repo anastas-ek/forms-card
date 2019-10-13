@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 800px;
+    background-color: #ddc298;
+    padding: 100px 10%;
+}
+
+.card{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+.product{
+    width: 40%;
+    background-color: #dedede;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    padding: 50px 20px;
+}
+.product__img{
+    width: 100%;
+    height: auto;
+    margin: 30px 0;
+}
+
+.product_name{
+    font-size: 25px;
+}
+.product__price{
+    font-size: 25px;
+    font-weight: bold;
+    color:#3d5948;
+    letter-spacing: 2px;
+
+}
+.form{
+    color: white;
+    width: 60%;
+    background-color: #151515;
+    padding: 50px 10%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.form__title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.form__order--btn{
+    font-size: 25px;
+    width: 100%;
+    padding: 20px 0;
+    background-color: #467d5c;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+
+}
+.form__content{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #d1d1d1;
+}
+.form__name , .form__card-num , .form__date , .form__cvv{
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 10px 0;
+}
+.form__input{
+    outline: none;
+    border:none;
+    background-color: #151515;
+    height: 25px;
+    color: #d1d1d1;
+    
+    font-family: 'Playfair Display SC', serif;
+    max-width: 100%;
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form__date-cvv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.form__label{
+    margin-bottom: 10px;
+    color: #d1d1d1;
+}
+
+::-webkit-input-placeholder {
+    font-size: 20px;
+    font-family: 'Playfair Display SC', serif;
+}
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.img-visa{
+    font-size: 30px;
+    color: white;
+}
+
+.input-card-num{
+    width: 70%;
+}
+
+.line-gradient{
+    width: 100%;
+    height: 3px;
+    background:linear-gradient(to right, #da9b1d, #da9b1d00);
+    margin-top: 5px;
+
+}
+.form__date{
+    margin-right: 10px;
+}

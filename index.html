@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/355afb95e5.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family= Playfair + Display + SC & display = swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="card">
+        <div class="product">
+            <img class="product__img" src="./img/t-hort.png">
+            <p class="product_name">WEEKDAY: COFFEE MAP SHIRT</p>
+            <p class="product__price">400 SEK</p>
+        </div>
+        <div class="form">
+            <p class="form__title">ENTER YOUR<br>PAYMENT INFO.</p>
+            <div class="form__content">
+                <div class="form__name">
+                    <label class="form__label" for="name">CARDHOLDER'S NAME</label>
+                    <input name="name" type="text" class="form__input " placeholder="Evan Palangio">
+                    <div class="line-gradient"></div>
+                </div>
+                <div class="form__card-num">
+                    <label class="form__label" for="number">CARD NUMBER</label>
+                    <div class="wrapper">
+                        <input name="number" type="text" class="form__input input-card-num "
+                            placeholder="4520 3819 **** ****" data-mask="0000 0000 0000 0000" maxlength="16">
+                        <i class="fab fa-cc-visa img-visa"></i>
+                    </div>
+                    <div class="line-gradient"></div>
+                </div>
+                <div class="form__date-cvv">
+                    <div class="form__date">
+                        <label class="form__label" for="date">EXPIRATION DATE</label>
+                        <input name="date" type="number" class="form__input input-date" maxlength="4"
+                            placeholder="02/22" data-mask="00/00">
+                        <div class="line-gradient"></div>
+                    </div>
+                    <div class="form__cvv">
+                        <label class="form__label" for="cvv">CVV</label>
+                        <input type="password" name="cvv" maxlength="4" minlength="3" class="form__input"
+                            placeholder="522">
+                        <div class="line-gradient"></div>
+                    </div>
+                </div>
+            </div> <a class="form__order--btn" href="#">PLACE ORDER</a>
+        </div>
+    </section>
+</body>
+
+</html>
